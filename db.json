@@ -1,0 +1,124 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstname": "John",
+      "lastname": "Doe",
+      "group": "N32"
+    },
+    {
+      "id": 2,
+      "firstname": "Alice",
+      "lastname": "Smith",
+      "group": "N45"
+    },
+    {
+      "id": 3,
+      "firstname": "Michael",
+      "lastname": "Johnson",
+      "group": "N50"
+    },
+    {
+      "id": 4,
+      "firstname": "Emily",
+      "lastname": "Brown",
+      "group": "N32"
+    },
+    {
+      "id": 5,
+      "firstname": "James",
+      "lastname": "Wilson",
+      "group": "N45"
+    },
+    {
+      "id": 6,
+      "firstname": "Emma",
+      "lastname": "Martinez",
+      "group": "N50"
+    },
+    {
+      "id": 7,
+      "firstname": "William",
+      "lastname": "Taylor",
+      "group": "N32"
+    },
+    {
+      "id": 8,
+      "firstname": "Olivia",
+      "lastname": "Anderson",
+      "group": "N45"
+    },
+    {
+      "id": 9,
+      "firstname": "Alexander",
+      "lastname": "Thomas",
+      "group": "N50"
+    },
+    {
+      "id": 10,
+      "firstname": "Sophia",
+      "lastname": "Jackson",
+      "group": "N32"
+    },
+    {
+      "id": 11,
+      "firstname": "Daniel",
+      "lastname": "White",
+      "group": "N45"
+    },
+    {
+      "id": 12,
+      "firstname": "Charlotte",
+      "lastname": "Harris",
+      "group": "N50"
+    },
+    {
+      "id": 13,
+      "firstname": "Matthew",
+      "lastname": "Martin",
+      "group": "N32"
+    },
+    {
+      "id": 14,
+      "firstname": "Ava",
+      "lastname": "Thompson",
+      "group": "N45"
+    },
+    {
+      "id": 15,
+      "firstname": "Benjamin",
+      "lastname": "Garcia",
+      "group": "N50"
+    },
+    {
+      "id": 16,
+      "firstname": "Mia",
+      "lastname": "Jones",
+      "group": "N32"
+    },
+    {
+      "id": 17,
+      "firstname": "Ethan",
+      "lastname": "Brown",
+      "group": "N45"
+    },
+    {
+      "id": 18,
+      "firstname": "Isabella",
+      "lastname": "Davis",
+      "group": "N50"
+    },
+    {
+      "id": 19,
+      "firstname": "Jacob",
+      "lastname": "Rodriguez",
+      "group": "N32"
+    },
+    {
+      "id": 20,
+      "firstname": "Madison",
+      "lastname": "Miller",
+      "group": "N45"
+    }
+  ]
+}
