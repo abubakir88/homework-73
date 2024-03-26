@@ -1,7 +1,11 @@
 import React from "react";
 
-function update() {
-  return <div></div>;
+function Update() {
+  return (
+    <div>
+      <h1> update </h1>
+    </div>
+  );
 }
 
-export default update;
+export default Update;
