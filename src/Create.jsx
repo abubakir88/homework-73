@@ -34,6 +34,7 @@ function create() {
               name="firstname"
               className="form-control "
               placeholder="John"
+              required
               onChange={(e) =>
                 setValues({ ...values, firstname: e.target.value })
               }
@@ -49,6 +50,7 @@ function create() {
               name="lastName"
               className="form-control"
               placeholder="Doe"
+              required
               onChange={(e) =>
                 setValues({ ...values, lastname: e.target.value })
               }
@@ -62,7 +64,6 @@ function create() {
               id="group"
               className="form-select"
               name="group"
-              aria-label="Default select example"
               onChange={(e) => setValues({ ...values, group: e.target.value })}
             >
               <option value="All">All</option>
