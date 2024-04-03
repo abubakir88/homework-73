@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import { Link } from "react-router-dom";
 import axios from "axios";
-const Add = () => {
+const add = () => {
   const [show, setShow] = useState(true);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -19,7 +19,7 @@ const Add = () => {
   const addNew = async () => {
     try {
       const response = await axios.post("http://localhost:3000/students", post);
-      fetchStudents();
+      // fetchStudents();
     } catch (error) {
       console.log(error);
     }
@@ -28,7 +28,7 @@ const Add = () => {
   return (
     <div>
       <div>
-        <Modal className="addS" show={show} onHide={handleClose}>
+        <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
             <Modal.Title>Add Student</Modal.Title>
           </Modal.Header>
@@ -70,25 +70,23 @@ const Add = () => {
                   value={post.group}
                   name="group"
                 >
+                  <option value="All">All</option>
                   <option value="React N32">React N32</option>
                   <option value="React N45">React N45</option>
                   <option value="React N50">React N50</option>
-                  <option value="React N20">React N20</option>
                 </select>
               </div>
               <Modal.Footer>
                 <Link to="/">
                   <button className="btn btn-secondary">Close</button>
                 </Link>
-                <button
-                  variant="secondary"
-                  className="btn btn-secondary"
+                <Link
+                  className="btn btn-success"
                   onClick={addNew}
+                  to="/students"
                 >
-                  <Link className="text-white text-decoration-none" to="/">
-                    Add
-                  </Link>
-                </button>
+                  Add
+                </Link>
               </Modal.Footer>
             </form>
           </Modal.Body>
@@ -98,4 +96,4 @@ const Add = () => {
   );
 };
 
-export default Add;
+export default add;
